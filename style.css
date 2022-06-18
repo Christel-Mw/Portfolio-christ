@@ -1,0 +1,234 @@
+/*
+style---------
+par Christel Mwenge
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar{
+    background:grey;
+    position: fixed;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+/****Menu****/
+
+.navbar .container .menu-container li{
+    display: inline-block;
+}
+
+.navbar .container a{
+    color: white;
+}
+
+.navbar .container .menu-container ul{
+    padding: 3px 10px;
+}
+
+.navbar .container .menu-container li{
+    margin: 10px;
+}
+
+.menu-container a:hover{
+    color: black;
+    transition: 0.8s;
+}
+
+/****Traitement du logo gauche****/
+
+.container .logo-container span{
+    color: rgb(173, 30, 30);
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container .logo-container a{
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*****Traitement de la section1******/ 
+.section1{
+    height: 800px;
+}
+.container2{
+    margin: auto;
+    padding: auto;
+}
+
+.section1.container2 t1{
+    padding-top: 250px;
+    padding-left: 180px;
+    color: white;
+
+}
+
+.banner img{
+    width: 100%;
+    height: 600px;
+    opacity: .2;
+}
+
+.section1 .container2 .text1{
+    margin-left: 10px;
+    font-size: 35px;
+}
+
+.section1 .container2 .text2{
+    font-size: 45px;
+    font-weight: 500;
+    color: wheat;
+}
+
+.section1 .container2 .text3{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.section1 .container2 .text3 span{
+    font-size: 15px;
+    font-weight: 200;
+    color: rgb(219, 207, 185);
+}
+
+/******bouton1*****/
+
+.section1 .container2 .bouton1 a{
+    border: 2px solid grey;
+    background-color: grey;
+    color:white;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.section1 .container2 .bouton1{
+    margin-top: 30px;
+}
+
+.section1 .container2 .bouton1 a:hover{
+    background: none;
+}
+
+/******section2*****/
+
+.section2{
+    height: 475px;
+    
+    
+}
+
+
+#p{
+    text-decoration: none;
+    text-align: center;
+    font-size: 40px;
+}
+
+.section2 > .container3{
+    display: flex;
+    
+}
+
+.img{
+    padding-left: 30px;
+    display: flex;
+    padding: 10px 80px;
+    margin-left: 1%;
+    width: 100%;
+}
+.APROPO{
+    margin-left: 2px;
+    text-decoration: underline grey;
+    
+}
+
+.contain-text #p1{
+    font-size: 30px; 
+    font-weight: 600;
+}
+
+.contain-text #p1 span{
+    color: grey;
+}
+
+.contain-text #p2{
+    text-align: justify;
+    font-size: 20px;
+}
+
+.container3 .contain-text .bouton2 a{
+    border: 2px solid grey;
+    background-color: grey;
+    color: white ;
+    font-size: 30px;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.container3 .contain-text .bouton2 {
+    margin-top: 25px;
+}
+
+.container3 .contain-text .bouton2 a:hover{
+    background: none;
+    color: grey;
+} 
+
+/*********CV***********/
+.section3{
+    height: 500px;
+    padding: 50px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container4{
+    height: 250px;
+}
+.info{
+    float:right;
+    padding: 100PX; 
+}
+.section{
+    margin-bottom: 70px;
+    text-align: justify;
+}
+.sec-gauche{
+    float: left;
+    font-weight: bold;
+   
+}
+.sec-droite{
+    margin-left: 150px;
+    margin-top: 0px;
+}
+
+h2{
+    font-size: 28px;
+    color: grey;
+    border-bottom: 3px solid grey;
+}
+
+.titre{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#parc-gauche p{
+    margin-bottom: 35px;
+}
+
+ 
+    
